@@ -398,8 +398,8 @@ function ssm_state_builder_create_pages()
 		try 
 		{
 			$ssm_state_builder = new ssm_state_builder_form_support();
-			$ssm_state_builder->add_error("Some random error");
-			$ssm_state_builder->add_warning("Some warning");
+			//$ssm_state_builder->add_error("Some random error");
+			//$ssm_state_builder->add_warning("Some warning");
 			//$ssm_state_builder->create_state_pages();
 			$ssm_state_builder->build_food_by_state_page();
 			$ssm_state_builder->create_state_pages();

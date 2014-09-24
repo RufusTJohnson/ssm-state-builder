@@ -88,19 +88,6 @@ global $wpdb;
 		</tr>
   </thead>
   <tbody>
-	<tr class="alternate iedit">
-	 <td>Name of new page:</td>
-	 <td colspan="2"><input name="NewPageName" type="text" /></td>
-	</tr>
-	<tr class="iedit">
-		<td>Replace page if already exists<small>?</small></td>
-			<td colspan="2"><input type="checkbox" name="Replace_If_Exists" id="Replace_If_Exists" /></td>
-	</tr>
-	<tr class="alternate iedit">
-			<td>Format of Link:</td>
-			<td colspan="2"><input name="LinkFormat" type="text" /></td>
-	</tr>
-
 		<tr class="iedit">
 
 			<td valign="top">Author of post/page:</td>
@@ -125,7 +112,7 @@ global $wpdb;
 
 		</tr>
 
-	</tbody>
+  </tbody>
 
 </table>
 
@@ -134,11 +121,8 @@ global $wpdb;
 </form>
 
 <h3>How to use?</h3>
-
-<p class="updated">* Create a name for a new page containing links to states<br />
-
-* Type the title of each post or page on a seperate line in the textarea<br />
-
-<strong>Optional:</strong><br />
-
-* If it is a page, select the parent page (Default: none)</p>
+<ul>
+ <li>- Select an author.  </li>
+ <li>- Press Add </li>
+</ul>
+<p>&nbsp;</p>
