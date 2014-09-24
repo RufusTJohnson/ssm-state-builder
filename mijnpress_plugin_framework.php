@@ -216,5 +216,3 @@ If you are a coder, you might like to visit <a href="http://www.ramonfincken.com
 <?php 
 }
 ?>
-
-
