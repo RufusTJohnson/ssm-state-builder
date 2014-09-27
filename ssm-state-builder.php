@@ -173,7 +173,7 @@ class ssm_state_builder_form_support
 			$logger->incLevel();
 			for($col=0; $col<4; $col++)
 			{
-				$state				=	$this->states[$row*4 + $col];
+				$state				=	$this->states[$row + $col*$row_count];
 				$state_slug			=	$this->get_state_slug($state);
 				$url 	= 	get_site_url()."/".$state_slug;
 				$text	= 	$state;
