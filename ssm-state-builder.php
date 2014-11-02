@@ -177,7 +177,7 @@ class ssm_state_builder_form_support
 				$state_slug			=	$this->get_state_slug($state);
 				$url 	= 	get_site_url()."/".$state_slug;
 				$text	= 	$state;
-				$link = $this->buildlink($url,$text,$state);
+				$link = 	$this->buildlink($url,$text,$state);
 				$logger->appendIndentCR("<td>$link</td>");			
 			}
 			$logger->decLevel();
